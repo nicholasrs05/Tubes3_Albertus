@@ -1,0 +1,17 @@
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\Albertus_FingerprintMatcher.exe.config
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\Albertus_FingerprintMatcher.exe
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\Albertus_FingerprintMatcher.pdb
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.csproj.AssemblyReference.cache
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.Properties.Resources.resources
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.csproj.GenerateResource.cache
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.csproj.CoreCompileInputs.cache
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.exe
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.pdb
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.Form.resources
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\MySql.Data.dll
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\System.Memory.dll
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\System.Buffers.dll
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\MySql.Data.xml
+C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus.B4B84BC3.Up2Date
