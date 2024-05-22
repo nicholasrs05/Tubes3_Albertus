@@ -73,6 +73,8 @@ connection = mysql.connector.connect (
     user='root',
     # password='nicholasrs05',
     # database='tubes3_albertus'
+    password='',
+    database='tubes3_albertus'
 )
 
 try:
