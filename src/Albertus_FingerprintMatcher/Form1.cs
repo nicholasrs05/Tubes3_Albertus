@@ -33,7 +33,7 @@ namespace Albertus_FingerprintMatcher
                 {
                     imageLocation = ofd.FileName;
 
-                    /*
+                    
                     try
                     {
                         DatabaseManager db = new DatabaseManager();
@@ -41,13 +41,14 @@ namespace Albertus_FingerprintMatcher
                         DataTable results = db.Execute("SELECT * FROM sidik_jari LIMIT 5;");
                         
                         pictureBoxOutput.ImageLocation = "../../../../" + results.Rows[4][0].ToString();
+                        labelNamaOutput.Text = ": " + results.Rows[4][1].ToString();
                         db.Disconnect();
                     }
                     catch (Exception errMsg)
                     {
                         Console.WriteLine(errMsg);
                     }
-                    */
+                    
                     pictureBoxInput.ImageLocation = imageLocation;
                     valid = true;
                 }
