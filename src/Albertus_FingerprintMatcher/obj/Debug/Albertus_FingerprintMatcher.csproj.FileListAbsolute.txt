@@ -19,3 +19,24 @@ C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDri
 C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\Albertus_FingerprintMatcher.application
 C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.exe.manifest
 C:\Users\Nicholas R. Sihite\OneDrive - Institut Teknologi Bandung\Desktop\OneDrive - Institut Teknologi Bandung\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.application
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\Albertus_FingerprintMatcher.exe.config
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\Albertus_FingerprintMatcher.exe.manifest
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\Albertus_FingerprintMatcher.application
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\Albertus_FingerprintMatcher.exe
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\Albertus_FingerprintMatcher.pdb
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\MySql.Data.dll
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\System.Memory.dll
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\System.Numerics.Vectors.dll
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\System.Buffers.dll
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\bin\Debug\MySql.Data.xml
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.csproj.AssemblyReference.cache
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.Form.resources
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.Properties.Resources.resources
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.csproj.GenerateResource.cache
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.csproj.CoreCompileInputs.cache
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.exe.manifest
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.application
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus.B4B84BC3.Up2Date
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.exe
+C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.pdb
