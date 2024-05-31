@@ -40,3 +40,10 @@ C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albert
 C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus.B4B84BC3.Up2Date
 C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.exe
 C:\coding\STIMA\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.pdb
+C:\Andi\4\Stima\Tubes3\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.csproj.AssemblyReference.cache
+C:\Andi\4\Stima\Tubes3\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.Form.resources
+C:\Andi\4\Stima\Tubes3\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.Properties.Resources.resources
+C:\Andi\4\Stima\Tubes3\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.csproj.GenerateResource.cache
+C:\Andi\4\Stima\Tubes3\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.csproj.CoreCompileInputs.cache
+C:\Andi\4\Stima\Tubes3\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.exe
+C:\Andi\4\Stima\Tubes3\Tubes3_Albertus\src\Albertus_FingerprintMatcher\obj\Debug\Albertus_FingerprintMatcher.pdb

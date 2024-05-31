@@ -78,6 +78,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BM.cs" />
     <Compile Include="DatabaseManager.cs" />
     <Compile Include="Database_Searching.cs" />
     <Compile Include="Form1.cs">
@@ -86,7 +87,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HammingDistance.cs" />
+    <Compile Include="imgMethod.cs" />
     <Compile Include="KMP.cs" />
+    <Compile Include="Matcher\Matcher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegEx.cs" />
@@ -133,7 +137,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NewFolder1\" />
+    <Folder Include="imgMethod\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
