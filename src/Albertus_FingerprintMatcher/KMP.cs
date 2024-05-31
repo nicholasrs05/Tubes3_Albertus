@@ -26,7 +26,7 @@ public class KMP{
                 i++;
             }
         }
-        return true; // no match found
+        return false; // no match found
     }
 
     public static int[] ComputeBorder(string pattern)

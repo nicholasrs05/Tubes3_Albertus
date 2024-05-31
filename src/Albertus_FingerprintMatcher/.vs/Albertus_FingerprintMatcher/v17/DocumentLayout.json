@@ -46,7 +46,38 @@
               "RelativeToolTip": "imgMethod.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2024-05-22T07:19:41.324Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KMP.cs",
+              "DocumentMoniker": "C:\\coding\\STIMA\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\KMP_Algorithm\\KMP.cs",
+              "RelativeDocumentMoniker": "KMP_Algorithm\\KMP.cs",
+              "ToolTip": "C:\\coding\\STIMA\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\KMP_Algorithm\\KMP.cs",
+              "RelativeToolTip": "KMP_Algorithm\\KMP.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:51:39.262Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\coding\\STIMA\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\coding\\STIMA\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAiwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:30:05.338Z",
+              "IsPinned": true,
+=======
               "WhenOpened": "2024-05-31T14:00:17.437Z",
+>>>>>>> 0e5b0330d543c63f239775b88bfaaffe20406466
               "EditorCaption": ""
             },
             {
