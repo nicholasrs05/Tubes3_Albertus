@@ -14,7 +14,7 @@ namespace Albertus_FingerprintMatcher
 
         public DatabaseManager()
         {
-            string connectionString = "Server=localhost;Database=tubes3_albertus;Uid=root;Pwd=Annisa28_;";
+            string connectionString = "Server=localhost;Database=tubes_stima;Uid=root;Pwd=andi;";
             connection = new MySqlConnection(connectionString);
         }
 

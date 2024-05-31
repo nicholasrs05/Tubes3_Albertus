@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\",
   "Documents": [
     {
@@ -21,10 +22,56 @@
     {
       "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|c:\\andi\\4\\stima\\tubes3\\tubes3_albertus\\src\\albertus_fingerprintmatcher\\kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|c:\\andi\\4\\stima\\tubes3\\tubes3_albertus\\src\\albertus_fingerprintmatcher\\matcher\\matcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:matcher\\matcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|c:\\andi\\4\\stima\\tubes3\\tubes3_albertus\\src\\albertus_fingerprintmatcher\\imgmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:imgmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|c:\\andi\\4\\stima\\tubes3\\tubes3_albertus\\src\\albertus_fingerprintmatcher\\database_searching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:database_searching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|c:\\andi\\4\\stima\\tubes3\\tubes3_albertus\\src\\albertus_fingerprintmatcher\\bm_algorithm\\bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:bm_algorithm\\bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 4ea3a5fc9bd71c7dc5734c8711522dc922bec637
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|c:\\andi\\4\\stima\\tubes3\\tubes3_albertus\\src\\albertus_fingerprintmatcher\\kmp_algorithm\\kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:kmp_algorithm\\kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> 4ea3a5fc9bd71c7dc5734c8711522dc922bec637
     }
   ],
   "DocumentGroupContainers": [
@@ -34,6 +81,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -68,9 +116,21 @@
               "DocumentMoniker": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
               "ToolTip": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.Designer.cs",
+=======
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.Designer.cs",
+>>>>>>> 4ea3a5fc9bd71c7dc5734c8711522dc922bec637
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AQIAAJkAAAAAAAAAAAASwLwAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-05-22T07:19:41.324Z"
             },
             {
@@ -92,6 +152,121 @@
               "DocumentMoniker": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\DatabaseManager.cs",
               "RelativeDocumentMoniker": "DatabaseManager.cs",
               "ToolTip": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\DatabaseManager.cs",
+=======
+              "WhenOpened": "2024-05-22T07:19:41.324Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:30:05.338Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "imgMethod.cs",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\imgMethod.cs",
+              "RelativeDocumentMoniker": "imgMethod.cs",
+              "ToolTip": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\imgMethod.cs",
+              "RelativeToolTip": "imgMethod.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T12:24:32.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KMP.cs",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\KMP_Algorithm\\KMP.cs",
+              "RelativeDocumentMoniker": "KMP_Algorithm\\KMP.cs",
+              "ToolTip": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\KMP_Algorithm\\KMP.cs",
+              "RelativeToolTip": "KMP_Algorithm\\KMP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T12:07:32.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BM.cs",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\BM_Algorithm\\BM.cs",
+              "RelativeDocumentMoniker": "BM_Algorithm\\BM.cs",
+              "ToolTip": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\BM_Algorithm\\BM.cs",
+              "RelativeToolTip": "BM_Algorithm\\BM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T11:58:58.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Matcher.cs",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Matcher\\Matcher.cs",
+              "RelativeDocumentMoniker": "Matcher\\Matcher.cs",
+              "ToolTip": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Matcher\\Matcher.cs*",
+              "RelativeToolTip": "Matcher\\Matcher.cs*",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T11:43:01.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Database_Searching.cs",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Database_Searching.cs",
+              "RelativeDocumentMoniker": "Database_Searching.cs",
+              "ToolTip": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Database_Searching.cs",
+              "RelativeToolTip": "Database_Searching.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:55:38.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KMP.cs",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\KMP.cs",
+              "RelativeDocumentMoniker": "KMP.cs",
+              "ToolTip": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\KMP.cs",
+              "RelativeToolTip": "KMP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T12:05:49.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwDoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:18:38.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "DatabaseManager.cs",
+              "ToolTip": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\DatabaseManager.cs",
+>>>>>>> 4ea3a5fc9bd71c7dc5734c8711522dc922bec637
               "RelativeToolTip": "DatabaseManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,12 +274,21 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
+=======
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Andi\\4\\Stima\\Tubes3\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\coding\\STIMA\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\coding\\STIMA\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.cs [Design]",
+>>>>>>> 4ea3a5fc9bd71c7dc5734c8711522dc922bec637
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T07:16:26.462Z"
             }
