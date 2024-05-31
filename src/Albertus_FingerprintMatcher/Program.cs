@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace Albertus_FingerprintMatcher
 {
@@ -16,7 +18,33 @@ namespace Albertus_FingerprintMatcher
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            /*
+            try
+            {
+                DatabaseManager db = new DatabaseManager();
+                db.Connect();
+                DataTable results = db.Execute("SELECT * FROM biodata LIMIT 5;");
+                foreach (DataRow row in results.Rows)
+                {
+                    foreach (DataColumn col in results.Columns)
+                    {
+                        Console.Write(row[col] + "\t");
+                    }
+                    Console.WriteLine();
+                }
+                db.Disconnect();
+            } catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            */
+
+            Application.Run(new Form());
+
+            // print "Hello World"
+
         }
     }
 }
+
