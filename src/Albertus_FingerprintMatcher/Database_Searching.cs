@@ -2,27 +2,26 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Albertus_FingerprintMatcher
 {
     public class Database_Searching
     {
+        public DataTable results;
+        List<String> path;
         public Database_Searching()
         {
+            DatabaseManager db = new DatabaseManager();
             try
             {
-                DatabaseManager db = new DatabaseManager();
                 db.Connect();
-                DataTable results = db.Execute("Select * from sidik_jari");
+                results = db.Execute("select berkas_citra from sidik_jari");
 
-                List<String> path = new List<String>();
+                path = new List<String>();
                 foreach (DataRow row in results.Rows)
                 {
                     path.Add((String)row[0]);
-                    Console.WriteLine(row[1]);
+                    //Console.WriteLine(row[0]);
                 }
                 db.Disconnect();
             }
@@ -31,16 +30,22 @@ namespace Albertus_FingerprintMatcher
                 Console.WriteLine(ex.ToString());
             }
         }
+        public List<String> GetPath()
+        {
+            return path;
+        }
     }
 
     public class testing
     {
-        static void main(string[] args)
+        public static void Main(string[] args)
         {
-            // Buatlah test driver untuk database searching
-
+            // Create a test driver for database searching
             Database_Searching db = new Database_Searching();
-
+            List<String> path = db.GetPath();
+            foreach (String s in path) { 
+                Console.WriteLine(s);
+            }
         }
     }
 }
