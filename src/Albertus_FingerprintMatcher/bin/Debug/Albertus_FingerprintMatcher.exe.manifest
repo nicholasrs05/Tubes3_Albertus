@@ -42,22 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-<<<<<<< HEAD
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Albertus_FingerprintMatcher.exe" size="46128">
-=======
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Albertus_FingerprintMatcher.exe" size="46640">
->>>>>>> 1c1c3e04a0e0d6c6afdd9d0ce563c1c8c2ceb4bb
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Albertus_FingerprintMatcher.exe" size="48176">
       <assemblyIdentity name="Albertus_FingerprintMatcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-<<<<<<< HEAD
-        <dsig:DigestValue>Z5pNAyU0Jb6xhygbWYVxEmDTH0JHFSe5xZC2VE6Bk6U=</dsig:DigestValue>
-=======
-        <dsig:DigestValue>A4KLJZ9Kee25CdvC5cP1O7wH3LpQ1XpGjSYjOLtLbQ4=</dsig:DigestValue>
->>>>>>> 1c1c3e04a0e0d6c6afdd9d0ce563c1c8c2ceb4bb
+        <dsig:DigestValue>8aWhy9BDCwmn5yawBYsnaTBSbIjNuxiWYdVs8dar6Mo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
