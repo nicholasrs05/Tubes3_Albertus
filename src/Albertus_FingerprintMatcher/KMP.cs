@@ -28,7 +28,6 @@ public class KMP{
         }
         return -1; // no match found
     }
-
     public static int[] ComputeBorder(string pattern)
     {
         int[] b = new int[pattern.Length];
@@ -60,6 +59,4 @@ public class KMP{
         }
         return b;
     }   
-
-    public 
 }
