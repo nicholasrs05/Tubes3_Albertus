@@ -40,9 +40,20 @@ namespace Albertus_FingerprintMatcher
             }
             */
 
-            Application.Run(new Form());
+            //string name = "Nicholas Reymond Sihite";
+            //string encrypted = "n1cHl4S ryM0nD 51ht3";
 
-            // print "Hello World"
+            //string regex = RegEx.generateRegEx(name);
+
+            //Console.WriteLine(regex);
+
+            //if (RegEx.isMatch(encrypted, regex)){
+            //    Console.WriteLine("Matched!");
+            //} else {
+            //    Console.WriteLine("Not match!");
+            //}
+
+            Application.Run(new Form());
 
         }
     }
