@@ -15,12 +15,9 @@ namespace Albertus_FingerprintMatcher {
         
         public static string imgToASCII(string filePath)
         {
-            using (Bitmap bitmap = new Bitmap(filePath))
-            {
-                byte[] bytes = File.ReadAllBytes(filePath);
-                string binaryString = Encoding.ASCII.GetString(bytes);
-                return binaryString;
-            }
+            byte[] bytes = File.ReadAllBytes(filePath);
+            string binaryString = Encoding.ASCII.GetString(bytes);
+            return binaryString;
         }
     }
 
