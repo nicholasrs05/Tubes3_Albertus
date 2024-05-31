@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Albertus_FingerprintMatcher.exe" size="48176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Albertus_FingerprintMatcher.exe" size="49712">
       <assemblyIdentity name="Albertus_FingerprintMatcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8aWhy9BDCwmn5yawBYsnaTBSbIjNuxiWYdVs8dar6Mo=</dsig:DigestValue>
+        <dsig:DigestValue>bxQlpS5w+1faOkRyKzS5fwy4kf/Fmj2FkB3kpRjKO58=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

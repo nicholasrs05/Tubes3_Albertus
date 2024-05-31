@@ -42,16 +42,16 @@ namespace Albertus_FingerprintMatcher
         }
     }
 
-    public class testing
-    {
-        public static void Main(string[] args)
-        {
-            // Create a test driver for database searching
-            Database_Searching db = new Database_Searching();
-            List<String> path = db.GetPath();
-            foreach (String s in path) { 
-                Console.WriteLine(s);
-            }
-        }
-    }
+    //public class testing
+    //{
+    //    public static void Main(string[] args)
+    //    {
+    //        // Create a test driver for database searching
+    //        Database_Searching db = new Database_Searching();
+    //        List<String> path = db.GetPath();
+    //        foreach (String s in path) { 
+    //            Console.WriteLine(s);
+    //        }
+    //    }
+    //}
 }
