@@ -1,4 +1,6 @@
-namespace {    
+using System;
+
+namespace Albertus_FingerprintMatcher{    
     public class BM {
         public static bool BMMatch (string text, string pattern){
             int n = text.Length;

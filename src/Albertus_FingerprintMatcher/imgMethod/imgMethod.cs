@@ -2,11 +2,9 @@ using System;
 using System.IO;
 using System.Text;
 using System.Drawing;
-
-    class imgMethod{
-    public class ImageToAsciiConverter
-    {
-        public string imgToASCII_30Pxl(string filePath)
+namespace Albertus_FingerprintMatcher { 
+    public class ImageToAsciiConverter{
+        public static string imgToASCII_30Pxl(string filePath)
         {
             byte[] bytes = File.ReadAllBytes(filePath);
             string binaryString = Encoding.ASCII.GetString(bytes);
@@ -15,7 +13,7 @@ using System.Drawing;
             return binaryString;
         }
         
-        public string imgToASCII(string filePath)
+        public static string imgToASCII(string filePath)
         {
             using (Bitmap bitmap = new Bitmap(filePath))
             {
@@ -25,8 +23,5 @@ using System.Drawing;
             }
         }
     }
-
-
-
 
 }

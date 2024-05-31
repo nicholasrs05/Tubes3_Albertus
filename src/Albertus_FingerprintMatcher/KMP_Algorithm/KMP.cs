@@ -1,6 +1,6 @@
 public class KMP{
 
-    public static int KMPSearch(string text, string pattern)
+    public static bool KMPSearch(string text, string pattern)
     {
         int n = text.Length;
         int m = pattern.Length;
@@ -13,7 +13,7 @@ public class KMP{
             if (pattern[j] == text[i])
             {
                 if (j == m - 1)
-                    return i - m + 1; // match found
+                    return true; // match found
                 i++;
                 j++;
             }
@@ -26,7 +26,7 @@ public class KMP{
                 i++;
             }
         }
-        return -1; // no match found
+        return true; // no match found
     }
 
     public static int[] ComputeBorder(string pattern)

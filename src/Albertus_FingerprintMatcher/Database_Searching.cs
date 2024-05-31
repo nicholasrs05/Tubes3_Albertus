@@ -9,18 +9,21 @@ namespace Albertus_FingerprintMatcher
     {
         public DataTable results;
         List<String> path;
+        List<String> name;
         public Database_Searching()
         {
             DatabaseManager db = new DatabaseManager();
             try
             {
                 db.Connect();
-                results = db.Execute("select berkas_citra from sidik_jari");
+                results = db.Execute("select * from sidik_jari");
 
                 path = new List<String>();
+                name = new List<String>();
                 foreach (DataRow row in results.Rows)
                 {
                     path.Add((String)row[0]);
+                    name.Add((String)row[1]);
                     //Console.WriteLine(row[0]);
                 }
                 db.Disconnect();
@@ -33,6 +36,9 @@ namespace Albertus_FingerprintMatcher
         public List<String> GetPath()
         {
             return path;
+        }
+        public List<String> GetName() {
+            return name;
         }
     }
 
