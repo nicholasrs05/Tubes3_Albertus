@@ -32,32 +32,8 @@ namespace Albertus_FingerprintMatcher
                 if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
                     imageLocation = ofd.FileName;
-
-                    
-                    //try
-                    //{
-                    //    DatabaseManager db = new DatabaseManager();
-                    //    db.Connect();
-                    //    DataTable results = db.Execute("SELECT * FROM sidik_jari LIMIT 5;");
-                        
-                    //    pictureBoxOutput.ImageLocation = "../../../../" + results.Rows[4][0].ToString();
-                    //    labelNamaOutput.Text = ": " + results.Rows[4][1].ToString();
-                    //    db.Disconnect();
-                    //}
-                    //catch (Exception errMsg)
-                    //{
-                    //    Console.WriteLine(errMsg);
-                    //}
                     
                     pictureBoxInput.ImageLocation = imageLocation;
-
-
-                    List<String> result = Matcher.FindMatch(imageLocation, "KMP");
-
-                    Console.WriteLine(imageLocation);
-                    Console.WriteLine(result[0]);
-
-                    pictureBoxOutput.ImageLocation = "../../../../" + result[0];
 
                     valid = true;
                 }
@@ -72,7 +48,17 @@ namespace Albertus_FingerprintMatcher
         {
             if (valid)
             {
+                String imageLocation = pictureBoxInput.ImageLocation;
+                String algorithm = comboBoxAlgorithm.Text.ToString();
 
+                if (!algorithm.Equals(""))
+                {
+                    List<String> result = Matcher.FindMatch(imageLocation, algorithm);
+                    Console.WriteLine(imageLocation);
+                    Console.WriteLine(result[0]);
+
+                    pictureBoxOutput.ImageLocation = "../../../../" + result[0];
+                }
             }
         }
     }
