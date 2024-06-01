@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Security.Cryptography;
+using System.Diagnostics;
 
 namespace Albertus_FingerprintMatcher
 {
@@ -53,11 +54,32 @@ namespace Albertus_FingerprintMatcher
 
                 if (!algorithm.Equals(""))
                 {
+                    Stopwatch timeKeeper = new Stopwatch();
+                    timeKeeper.Start();
                     List<String> result = Matcher.FindMatch(imageLocation, algorithm);
-                    Console.WriteLine(imageLocation);
-                    Console.WriteLine(result[0]);
+                    timeKeeper.Stop();
 
                     pictureBoxOutput.ImageLocation = "../../../../" + result[0];
+                    labelExecTimeOutput.Text = ": " + timeKeeper.ElapsedMilliseconds + " ms";
+                    labelSimilarityOutput.Text = ": " + result[2];
+                    labelChoosenAlgoOutput.Text = ": " + comboBoxAlgorithm.Text.ToString();
+
+                    List<String> biodata = Matcher.FindBiodata(result[1]);
+                    if (biodata.Count > 0)
+                    {
+                        labelNIKOutput.Text = ": " + biodata[0];
+                        labelNamaOutput.Text = ": " + biodata[1];
+                        labelTempatLahirOutput.Text = ": " + biodata[2];
+                        labelTanggalLahirOutput.Text = ": " + biodata[3];
+                        labelJenisKelaminOutput.Text = ": " + biodata[4];
+                        labelGolonganDarahOutput.Text = ": " + biodata[5];
+                        labelAlamatOutput.Text = ": " + biodata[6];
+                        labelAgamaOutput.Text = ": " + biodata[7];
+                        labelStatusOutput.Text = ": " + biodata[8];
+                        labelPekerjaanOutput.Text = ": " + biodata[9];
+                        labelKewarganegaraanOutput.Text = ": " + biodata[10];
+                    }
+
                 }
             }
         }
