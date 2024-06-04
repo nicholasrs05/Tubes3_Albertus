@@ -46,6 +46,7 @@ namespace Albertus_FingerprintMatcher{
                 }
             if (!find)
             {
+                Console.WriteLine("Masuk algoritma lain!");
                 double percentage = 0;
                 for (int i = 0; i < path.Count; i++)
                 {   
@@ -53,6 +54,8 @@ namespace Albertus_FingerprintMatcher{
                     String currPath = "../../../../" + path[i];
                     String text = imgMethod.imgToASCII(currPath);
                     double current = HammingDistance.ComputeHammingDistance(text, fullPattern);
+                    Console.WriteLine("Current: " + current);
+                    Console.WriteLine("Percentage: " + percentage);
                     if (current>percentage)
                     {   
                         percentage = current;

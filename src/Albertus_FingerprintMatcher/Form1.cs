@@ -59,26 +59,34 @@ namespace Albertus_FingerprintMatcher
                     List<String> result = Matcher.FindMatch(imageLocation, algorithm);
                     timeKeeper.Stop();
 
-                    pictureBoxOutput.ImageLocation = "../../../../" + result[0];
-                    labelExecTimeOutput.Text = ": " + timeKeeper.ElapsedMilliseconds + " ms";
-                    labelSimilarityOutput.Text = ": " + result[2];
-                    labelChoosenAlgoOutput.Text = ": " + comboBoxAlgorithm.Text.ToString();
-
-                    List<String> biodata = Matcher.FindBiodata(result[1]);
-                    if (biodata.Count > 0)
+                    if (result.Count > 0)
                     {
-                        labelNIKOutput.Text = ": " + biodata[0];
-                        labelNamaOutput.Text = ": " + biodata[1];
-                        labelTempatLahirOutput.Text = ": " + biodata[2];
-                        labelTanggalLahirOutput.Text = ": " + biodata[3];
-                        labelJenisKelaminOutput.Text = ": " + biodata[4];
-                        labelGolonganDarahOutput.Text = ": " + biodata[5];
-                        labelAlamatOutput.Text = ": " + biodata[6];
-                        labelAgamaOutput.Text = ": " + biodata[7];
-                        labelStatusOutput.Text = ": " + biodata[8];
-                        labelPekerjaanOutput.Text = ": " + biodata[9];
-                        labelKewarganegaraanOutput.Text = ": " + biodata[10];
+                        pictureBoxOutput.ImageLocation = "../../../../" + result[0];
+                        labelSimilarityOutput.Text = ": " + result[2];
+                        labelExecTimeOutput.Text = ": " + timeKeeper.ElapsedMilliseconds + " ms";
+                        labelChoosenAlgoOutput.Text = ": " + comboBoxAlgorithm.Text.ToString();
+
+                        List<String> biodata = Matcher.FindBiodata(result[1]);
+
+                        if (biodata.Count > 0)
+                        {
+                            labelNIKOutput.Text = ": " + biodata[0];
+                            labelNamaOutput.Text = ": " + biodata[1];
+                            labelTempatLahirOutput.Text = ": " + biodata[2];
+                            labelTanggalLahirOutput.Text = ": " + biodata[3];
+                            labelJenisKelaminOutput.Text = ": " + biodata[4];
+                            labelGolonganDarahOutput.Text = ": " + biodata[5];
+                            labelAlamatOutput.Text = ": " + biodata[6];
+                            labelAgamaOutput.Text = ": " + biodata[7];
+                            labelStatusOutput.Text = ": " + biodata[8];
+                            labelPekerjaanOutput.Text = ": " + biodata[9];
+                            labelKewarganegaraanOutput.Text = ": " + biodata[10];
+                        }
+                    } else
+                    {
+                        labelSimilarityOutput.Text = ": Not Found!";
                     }
+
 
                 }
             }
