@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\matcher\\matcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:matcher\\matcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\imgmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:imgmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|c:\\users\\nicholas r. sihite\\onedrive - institut teknologi bandung\\desktop\\onedrive - institut teknologi bandung\\tubes3_albertus\\src\\albertus_fingerprintmatcher\\hammingdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:hammingdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\matcher\\matcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:matcher\\matcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +21,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|c:\\users\\nicholas r. sihite\\onedrive - institut teknologi bandung\\desktop\\onedrive - institut teknologi bandung\\tubes3_albertus\\src\\albertus_fingerprintmatcher\\hammingdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:hammingdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|solutionrelative:databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83C624A0-C50E-47CE-8986-68145B555E0F}|Albertus_FingerprintMatcher.csproj|C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\regex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -64,9 +64,10 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T07:16:26.462Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -76,14 +77,15 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAAADoAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "ViewState": "AQIAACUAAAAAAAAAAAAqwEUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T07:18:38.1Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "HammingDistance.cs",
               "DocumentMoniker": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\HammingDistance.cs",
               "RelativeDocumentMoniker": "HammingDistance.cs",
@@ -108,15 +110,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "KMP.cs",
               "DocumentMoniker": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\KMP.cs",
               "RelativeDocumentMoniker": "KMP.cs",
               "ToolTip": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\KMP.cs",
               "RelativeToolTip": "KMP.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowD8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T14:17:57.143Z"
+              "WhenOpened": "2024-05-31T14:17:57.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -126,14 +129,14 @@
               "RelativeDocumentMoniker": "imgMethod.cs",
               "ToolTip": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\imgMethod.cs",
               "RelativeToolTip": "imgMethod.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAuwDEAAABCAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA9wDMAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T14:00:17.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -141,36 +144,38 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T09:30:05.338Z"
+              "WhenOpened": "2024-05-21T09:30:05.338Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "BM.cs",
               "DocumentMoniker": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\BM.cs",
               "RelativeDocumentMoniker": "BM.cs",
               "ToolTip": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\BM.cs",
               "RelativeToolTip": "BM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T13:46:29.801Z"
+              "WhenOpened": "2024-05-31T13:46:29.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Matcher.cs",
               "DocumentMoniker": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Matcher\\Matcher.cs",
               "RelativeDocumentMoniker": "Matcher\\Matcher.cs",
               "ToolTip": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\Matcher\\Matcher.cs",
               "RelativeToolTip": "Matcher\\Matcher.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAgwEYAAAArAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T13:47:45.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "DatabaseManager.cs",
               "DocumentMoniker": "C:\\Users\\Nicholas R. Sihite\\OneDrive - Institut Teknologi Bandung\\Desktop\\OneDrive - Institut Teknologi Bandung\\Tubes3_Albertus\\src\\Albertus_FingerprintMatcher\\DatabaseManager.cs",
               "RelativeDocumentMoniker": "DatabaseManager.cs",

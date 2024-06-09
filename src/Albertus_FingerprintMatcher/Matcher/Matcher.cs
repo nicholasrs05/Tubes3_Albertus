@@ -18,7 +18,7 @@ namespace Albertus_FingerprintMatcher{
             String pattern = imgMethod.imgToASCII_60Pxl(input);
             if (algoritma.Equals("KMP"))
             {
-                for (int i=0; i<path.Count; i++)
+                for (int i = 0; i < path.Count; i++)
                 {
                     String currPath = "../../../../" + path[i];
                     String text = imgMethod.imgToASCII(currPath);
@@ -32,7 +32,10 @@ namespace Albertus_FingerprintMatcher{
                         break;
                     }
                 }
-            } else
+            }
+            else
+            {
+                Console.WriteLine("Masuk BM");
                 for (int i = 0; i < path.Count; i++)
                 {
                     String currPath = "../../../../" + path[i];
@@ -47,6 +50,7 @@ namespace Albertus_FingerprintMatcher{
                         break;
                     }
                 }
+            }
             if (!find)
             {
                 double percentage = 0;

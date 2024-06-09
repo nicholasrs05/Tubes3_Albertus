@@ -49,7 +49,7 @@ namespace Albertus_FingerprintMatcher {
             byte[] bytes = BitmapToByteArray(resized);
             string binaryString = Encoding.ASCII.GetString(bytes);
             // karena 1 pixel gambar hitam putih membutuhkan 1 byte (8 bit) (alokasi memori) makanya ambil 30 string ditengah
-            binaryString = binaryString.Substring(binaryString.Length / 2 - 30, 60);
+            binaryString = binaryString.Substring(binaryString.Length / 2 - 15, 30);
             return binaryString;
         }
         
