@@ -91,8 +91,20 @@ namespace Albertus_FingerprintMatcher
                     }
                     else
                     {
+                        labelExecTimeOutput.Text = ": " + timeKeeper.ElapsedMilliseconds + " ms";
                         labelSimilarityOutput.Text = ": Not Found!";
-                        labelSimilarityOutput.ForeColor = Color.Red;
+                        labelChoosenAlgoOutput.Text = ": Not Found!";
+                        labelNIKOutput.Text = ": No Match";
+                        labelNamaOutput.Text = ": No Match";
+                        labelTempatLahirOutput.Text = ": No Match";
+                        labelTanggalLahirOutput.Text = ": No Match";
+                        labelJenisKelaminOutput.Text = ": No Match";
+                        labelGolonganDarahOutput.Text = ": No Match";
+                        labelAlamatOutput.Text = ": No Match";
+                        labelAgamaOutput.Text = ": No Match";
+                        labelStatusOutput.Text = ": No Match";
+                        labelPekerjaanOutput.Text = ": No Match";
+                        labelKewarganegaraanOutput.Text = ": No Match";
                     }
                 }
             }
