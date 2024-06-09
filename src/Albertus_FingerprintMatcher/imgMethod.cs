@@ -47,7 +47,7 @@ namespace Albertus_FingerprintMatcher {
         {
             Bitmap resized = ResizeImage(filePath, 60, 60);
             byte[] bytes = BitmapToByteArray(resized);
-            string binaryString = Encoding.ASCII.GetString(bytes)
+            string binaryString = Encoding.ASCII.GetString(bytes);
             binaryString = binaryString.Substring(binaryString.Length / 2 - 30, 60);
             return binaryString;
         }
