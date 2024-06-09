@@ -1,6 +1,7 @@
 ﻿using MySqlX.XDevAPI.Common;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +15,7 @@ namespace Albertus_FingerprintMatcher{
             List<String> result = new List<String>();
             List<String> path = database.GetPath();
             List<String> name = database.GetName();
-            String pattern = imgMethod.imgToASCII_30Pxl(input);
+            String pattern = imgMethod.imgToASCII_60Pxl(input);
             if (algoritma.Equals("KMP"))
             {
                 for (int i=0; i<path.Count; i++)
@@ -48,16 +49,17 @@ namespace Albertus_FingerprintMatcher{
                 }
             if (!find)
             {
-                Console.WriteLine("Masuk algoritma lain!");
                 double percentage = 0;
                 int idx = 0;
+                Bitmap bitmapPattern = imgMethod.ResizeImage(input, 100, 100);
+                String fullPattern = imgMethod.ResizedImgToASCII(bitmapPattern);
                 for (int i = 0; i < path.Count; i++)
-                {   
-                    String fullPattern= imgMethod.imgToASCII(input);
+                {
                     String currPath = "../../../../" + path[i];
-                    String text = imgMethod.imgToASCII(currPath);
+                    Bitmap bitmaptext = imgMethod.ResizeImage(currPath, 100, 100);
+                    String text = imgMethod.ResizedImgToASCII(bitmaptext);
                     double current = HammingDistance.ComputeHammingDistance(text, fullPattern);
-                    if (current>percentage)
+                    if (current > percentage)
                     {
                         percentage = current;
                         idx = i;
@@ -65,11 +67,12 @@ namespace Albertus_FingerprintMatcher{
                 }
                 result.Add(path[idx]);
                 result.Add(name[idx]);
-                result.Add((percentage * 100).ToString("F2")+"%");
-                if (percentage * 100 >= 10)
+                result.Add((percentage * 100).ToString("F2") + "%");
+                if (percentage * 100 >= 70)
                 {
                     result.Add("True");
-                } else
+                }
+                else
                 {
                     result.Add("False");
                 }

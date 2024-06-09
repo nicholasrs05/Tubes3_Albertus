@@ -3,30 +3,68 @@ using System.IO;
 using System.Text;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Drawing.Drawing2D;
 namespace Albertus_FingerprintMatcher { 
     public class imgMethod{
-        public static string imgToASCII_30Pxl(string filePath)
+        public static Bitmap ResizeImage(string filePath, int width, int height)
         {
-            Bitmap bmp = ConvertFileToBlackAndWhite(filePath);
-            byte[] bytes = BitmapToByteArray(bmp);
+            // Load the original image from file path
+            using (Image originalImage = Image.FromFile(filePath))
+            {
+                // Create a new bitmap with the specified size
+                Bitmap resizedImage = new Bitmap(width, height);
+
+                // Set the resolution of the new image to match the original image
+                resizedImage.SetResolution(originalImage.HorizontalResolution, originalImage.VerticalResolution);
+
+                // Use a graphics object to draw the resized image
+                using (Graphics graphics = Graphics.FromImage(resizedImage))
+                {
+                    // Set the interpolation mode to high quality
+                    graphics.InterpolationMode = InterpolationMode.HighQualityBicubic;
+
+                    // Draw the original image onto the resized image
+                    graphics.DrawImage(originalImage, 0, 0, width, height);
+                }
+
+                return resizedImage;
+            }
+        }
+        public static string ResizedImgToASCII(Bitmap bitmap)
+        {
+            using (MemoryStream memoryStream = new MemoryStream())
+            {
+                bitmap.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Bmp);
+
+                byte[] bytes = memoryStream.ToArray();
+
+                string asciiString = Encoding.ASCII.GetString(bytes);
+                return asciiString;
+            }
+        }
+
+        public static string imgToASCII_60Pxl(string filePath)
+        {
+            Bitmap resized = ResizeImage(filePath, 60, 60);
+            byte[] bytes = BitmapToByteArray(resized);
             string binaryString = Encoding.ASCII.GetString(bytes);
             // karena 1 pixel gambar hitam putih membutuhkan 1 byte (8 bit) (alokasi memori) makanya ambil 30 string ditengah
-            binaryString = binaryString.Substring(binaryString.Length / 2 - 60, 120);
+            binaryString = binaryString.Substring(binaryString.Length / 2 - 30, 60);
             return binaryString;
         }
         
-        public static string imgToASCII(string filePath)
+        public static string imgToASCII(string filepath)
         {
-            Bitmap bmp = ConvertFileToBlackAndWhite(filePath);
-            byte[] bytes = BitmapToByteArray(bmp);
+            Bitmap resized = ResizeImage(filepath, 60, 60);
+            byte[] bytes = BitmapToByteArray(resized);
             string binaryString = Encoding.ASCII.GetString(bytes);
             return binaryString;
         }
 
-        public static Bitmap ConvertFileToBlackAndWhite(string inputFilePath)
+        public static Bitmap ConvertFileToBlackAndWhite(Bitmap bmp)
         {
             // Load the original image
-            Bitmap originalImage = new Bitmap(inputFilePath);
+            Bitmap originalImage = bmp;
 
             // Create a new bitmap with the same dimensions
             Bitmap blackAndWhiteImage = new Bitmap(originalImage.Width, originalImage.Height);
