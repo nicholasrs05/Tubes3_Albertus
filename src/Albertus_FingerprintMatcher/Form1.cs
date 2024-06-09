@@ -59,12 +59,18 @@ namespace Albertus_FingerprintMatcher
                     List<String> result = Matcher.FindMatch(imageLocation, algorithm);
                     timeKeeper.Stop();
 
-                    if (result.Count > 0)
+                    if (result[3] == "True")
                     {
                         pictureBoxOutput.ImageLocation = "../../../../" + result[0];
                         labelSimilarityOutput.Text = ": " + result[2];
                         labelExecTimeOutput.Text = ": " + timeKeeper.ElapsedMilliseconds + " ms";
-                        labelChoosenAlgoOutput.Text = ": " + comboBoxAlgorithm.Text.ToString();
+                        if (result[2] == "100%")
+                        {
+                            labelChoosenAlgoOutput.Text = ": " + comboBoxAlgorithm.Text.ToString();
+                        } else
+                        {
+                            labelChoosenAlgoOutput.Text = ": Hamming Distance (not found using " + comboBoxAlgorithm.Text.ToString() + ")";
+                        }
 
                         List<String> biodata = Matcher.FindBiodata(result[1]);
 
@@ -82,12 +88,12 @@ namespace Albertus_FingerprintMatcher
                             labelPekerjaanOutput.Text = ": " + biodata[9];
                             labelKewarganegaraanOutput.Text = ": " + biodata[10];
                         }
-                    } else
+                    }
+                    else
                     {
                         labelSimilarityOutput.Text = ": Not Found!";
+                        labelSimilarityOutput.ForeColor = Color.Red;
                     }
-
-
                 }
             }
         }

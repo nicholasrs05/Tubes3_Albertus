@@ -27,6 +27,7 @@ namespace Albertus_FingerprintMatcher{
                         result.Add(path[i]);
                         result.Add(name[i]);
                         result.Add("100%");
+                        result.Add("True");
                         break;
                     }
                 }
@@ -41,6 +42,7 @@ namespace Albertus_FingerprintMatcher{
                         result.Add(path[i]);
                         result.Add(name[i]);
                         result.Add("100%");
+                        result.Add("True");
                         break;
                     }
                 }
@@ -48,21 +50,28 @@ namespace Albertus_FingerprintMatcher{
             {
                 Console.WriteLine("Masuk algoritma lain!");
                 double percentage = 0;
+                int idx = 0;
                 for (int i = 0; i < path.Count; i++)
                 {   
                     String fullPattern= imgMethod.imgToASCII(input);
                     String currPath = "../../../../" + path[i];
                     String text = imgMethod.imgToASCII(currPath);
                     double current = HammingDistance.ComputeHammingDistance(text, fullPattern);
-                    Console.WriteLine("Current: " + current);
-                    Console.WriteLine("Percentage: " + percentage);
                     if (current>percentage)
-                    {   
+                    {
                         percentage = current;
-                        result.Add(path[i]);
-                        result.Add(name[i]);
-                        result.Add(percentage.ToString()+"%");
+                        idx = i;
                     }
+                }
+                result.Add(path[idx]);
+                result.Add(name[idx]);
+                result.Add((percentage * 100).ToString("F2")+"%");
+                if (percentage * 100 >= 10)
+                {
+                    result.Add("True");
+                } else
+                {
+                    result.Add("False");
                 }
             }
             return result;
